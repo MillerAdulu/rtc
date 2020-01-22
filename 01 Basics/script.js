@@ -33,8 +33,7 @@ const configuration = {
 const roomName = 'observable-' + roomHash;
 let room;
 
-// const drone = new ScaleDrone(`CHANNEL_ID_FROM_SCALEDRONE`);
-const drone = new ScaleDrone(`1BTYfL9TEKbYQt4N`);
+const drone = new ScaleDrone(`CHANNEL_ID_FROM_SCALEDRONE`);
 
 drone.on('open', error => {
     if (error) return onError(error)
